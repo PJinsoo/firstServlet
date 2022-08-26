@@ -20,7 +20,7 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=euc-kr");
         PrintWriter out=response.getWriter();
-        out.println("<html>"+"<body>"+"<h1>HelloServlet!</h1> "+"</body>"+"</html>");
+        out.println("<html>"+"<body>"+"<h1>HelloServlet!</h1><h2>wowow</h2> "+"</body>"+"</html>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
