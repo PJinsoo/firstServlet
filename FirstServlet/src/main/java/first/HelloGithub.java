@@ -21,8 +21,8 @@ public class HelloGithub extends HttpServlet {
 		response.setContentType("text/html;charset=euc-kr");
         PrintWriter out=response.getWriter();
         out.println("<html>"+"<body>");
-        out.println("<h1>Github¿¡¼­ import</h1>");
-        out.println("<br><h1>sub ºê·£Ä¡·Î commit, push ÇØº¸±â</h1>");
+        out.println("<h1>Githubì—ì„œ import ë°›ê¸°</h1>");
+        out.println("<br><h1>ì„œë¸Œë¸Œëœì¹˜ì— ì»¤ë°‹, í‘¸ì‰¬</h1>");
         out.println("</body>"+"</html>");
 	}
 
