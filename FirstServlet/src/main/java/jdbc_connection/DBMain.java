@@ -3,9 +3,9 @@ package jdbc_connection;
 public class DBMain {
 
 	public static void main(String[] args) {
-		SubjectDAO subDAO = new SubjectDAO();
+		//게시판 연결 확인용
+		BoardJDBC BDAO = new BoardJDBC();
 		
-		subDAO.selectOne(1);
+		BDAO.selectOne(1);
 	}
-
 }
