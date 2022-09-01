@@ -3,9 +3,9 @@ package jdbc_connection;
 public class DBMain {
 
 	public static void main(String[] args) {
-		SubjectDAO subDAO = new SubjectDAO();
+		BoardJDBC jdbcTester = new BoardJDBC();
 		
-		subDAO.selectOne(1);
+		jdbcTester.selectOne(1);
 	}
 
 }
